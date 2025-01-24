@@ -1,3 +1,6 @@
+(* ?はoption引数を表す.
+defaultではxが指定されている.
+*)
 let repeat_string ?(str = "x") n =
   if n < 0 then "Error"
   else

@@ -18,10 +18,8 @@ let fibonacci n =
     in
     loop n 0 1
 
-let test () =
+let () =
   print_endline (string_of_int (fibonacci (-42)));
   print_endline (string_of_int (fibonacci 1));
   print_endline (string_of_int (fibonacci 3));
   print_endline (string_of_int (fibonacci 6))
-
-let () = test ()
